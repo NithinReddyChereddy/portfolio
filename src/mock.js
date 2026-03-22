@@ -1,9 +1,17 @@
 
 export const portfolioData = {
   name: "Nithin Reddy Chereddy",
-  tagline: "Aspiring Data Analyst & Full-Stack Developer",
+  tagline: "Data Analyst | Transforming Complex Data into Actionable Insights",
 
   skills: {
+    "Data Analysis & BI": [
+      { name: "Power BI" },
+      { name: "Advanced Excel" },
+      { name: "Pandas & NumPy" },
+      { name: "Matplotlib & Seaborn" },
+      { name: "Statistical Modeling" },
+      { name: "DAX" }
+    ],
     "Languages": [
       { name: "Python" },
       { name: "Java" },
@@ -75,25 +83,25 @@ export const portfolioData = {
       id: 1,
       label: "Professional Certifications",
       value: "6+",
-      description: "Completed industry-grade certifications in Data Analytics, Power BI, and GenAI."
+      description: "Completed industry-grade certifications in Data Analytics, Power BI, and Oracle Data Platforms."
     },
     {
       id: 2,
-      label: "Core Projects",
+      label: "Data Analysis Projects",
       value: "5+",
-      description: "End-to-end full-stack and AI-assisted applications developed independently."
+      description: "End-to-end analytical projects involving EDA, visualization, and predictive insights."
     },
     {
       id: 3,
-      label: "Data Dashboards",
-      value: "2+",
-      description: "Comprehensive Power BI and Excel dashboards built for analytics and decision support."
+      label: "Interactive Dashboards",
+      value: "3+",
+      description: "Comprehensive Power BI and Excel dashboards built for automated reporting and decision support."
     },
     {
       id: 4,
-      label: "Core Technologies",
+      label: "Analytical Tools",
       value: "10+",
-      description: "Languages, frameworks, and tools utilized across various personal and academic projects."
+      description: "Proficient in languages, BI tools, and libraries utilized for data-driven storytelling."
     }
   ],
 
@@ -150,14 +158,14 @@ export const portfolioData = {
     },
   ],
   about: {
-    bio: "I am an Aspiring Data Analyst & Full-Stack Developer with a passion for transforming complex data into actionable insights and building high-utility applications. From engineering Java-based healthcare management systems and GenAI assistants to developing interactive data dashboards in Power BI and Excel, I specialize in bridging the gap between robust software engineering and deep analytical research. I leverage AI-augmented development workflows to deliver scalable, user-centric solutions.",
-    extendedBio: "My journey merges software architecture with data-driven storytelling. I have successfully engineered full-stack applications using Spring Boot and React, while simultaneously mastering data analytics tools to uncover behavioral patterns in global datasets. By embracing modern engineering workflows, I use AI tools to architect scalable systems, prototype secure API endpoints, and translate complex logic into functional applications efficiently. I am actively seeking roles where I can apply my analytical mindset and technical expertise to drive data-informed decisions.",
+    bio: "I am a results-driven Data Analyst dedicated to transforming complex datasets into actionable insights through advanced visualization and statistical analysis. With expertise in Power BI, SQL, Python, and Excel, I specialize in uncovering hidden patterns and building interactive dashboards that drive data-informed decision-making. My background in software engineering allows me to bridge the gap between technical data architecture and high-impact business intelligence.",
+    extendedBio: "My journey combines a strong foundation in Computer Science with a specialized focus on Data Analytics and Business Intelligence. I have successfully executed end-to-end data projects—from performing exploratory data analysis (EDA) on global search & rescue missions to architecting regional crime rate dashboards. I leverage modern tools like Power BI, DAX, and Python-based visualization libraries to tell compelling stories with data. By integrating Generative AI into my analytical workflows, I optimize data processing and predictive modeling to deliver secure, scalable, and user-centric insights.",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Nithin",
     highlights: [
-      "Expertise in Full-Stack Development (React, Spring Boot) and Data Analytics (Power BI)",
-      "Built and Deployed End-to-End Applications (Hospital Management, AI Assistants)",
-      "Strong foundation in OOP and Data Structures & Algorithms",
-      "Proficient in AI-Assisted Development and Modern Software Engineering Practices"
+      "Expertise in Data Analytics, Visualization & Business Intelligence (Power BI, Excel)",
+      "Proficient in Python (Pandas, NumPy, Seaborn) & SQL for Data Analysis",
+      "Hands-on experience in Exploratory Data Analysis (EDA) and Statistical Modeling",
+      "Certified Oracle Data Platform Associate & Power BI Foundations Specialist"
     ]
   },
   certifications: [
@@ -224,6 +232,8 @@ export const portfolioData = {
   social: {
     github: "https://github.com/NithinReddyChereddy",
     linkedin: "https://www.linkedin.com/in/nithinch06/",
-    email: "nithinreddychereddy@gmail.com"
+    email: process.env.REACT_APP_EMAIL || "Email hidden (see live site)",
+    phone: process.env.REACT_APP_PHONE || "Phone hidden (see live site)",
+    location: "Ongole, Andhra Pradesh"
   }
 };
