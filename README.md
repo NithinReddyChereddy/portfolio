@@ -1,9 +1,15 @@
 # Nithin Reddy Chereddy - Portfolio
 
-A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion.
+A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion. This portfolio showcases projects ranging from **Full-Stack Java/Spring Boot applications** and **GenAI-integrated assistants** to **interactive Data Analytics dashboards** in Power BI and Excel.
 
 ## 🚀 Live Demo
 Check out the live site here: [https://NithinReddyChereddy.github.io/portfolio](https://NithinReddyChereddy.github.io/portfolio)
+
+## ✨ Key Projects Featured
+- **Client-Server Hospital Management System**: A secure Healthcare platform built with Java Spring Boot and React.
+- **GenAI Stealth Mode Assistant**: A system-integrated AI assistant powered by Gemini API.
+- **Wildland Search & Rescue Dashboard**: An interactive Power BI analytics suite for global SAR missions.
+- **California Crime Rate Analysis**: Data visualization and behavioral research using Excel and Python.
 
 ## ✨ Features
 - **Modern UI/UX**: Designed with a sleek, dark-themed aesthetic.

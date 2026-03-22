@@ -1,7 +1,7 @@
 
 export const portfolioData = {
   name: "Nithin Reddy Chereddy",
-  tagline: "Aspiring Data analyst",
+  tagline: "Aspiring Data Analyst & Full-Stack Developer",
 
   skills: {
     "Languages": [
@@ -14,16 +14,9 @@ export const portfolioData = {
     ],
     "Frontend": [
       { name: "React.js" },
-      { name: "Bootstrap" },
       { name: "Streamlit" },
       { name: "Tailwind CSS" },
       { name: "TkinterDnD2" }
-    ],
-    "Backend": [
-      { name: "Java Spring Boot" },
-      { name: "REST APIs" },
-      { name: "Node.js" },
-      { name: "FastAPI" }
     ],
     "Databases & Tools": [
       { name: "PostgreSQL" },
@@ -87,7 +80,7 @@ export const portfolioData = {
     {
       id: 2,
       label: "Core Projects",
-      value: "3+",
+      value: "5+",
       description: "End-to-end full-stack and AI-assisted applications developed independently."
     },
     {
@@ -120,7 +113,7 @@ export const portfolioData = {
       title: "California Crime Rate Analysis Dashboard | MS Excel",
       description: "Built an interactive dashboard using MS Excel to visualize California crime rates. Enhanced dashboard usability with interactive buttons, slicers, and an organized layout, enabling quick interpretation of crime trends.",
       techStack: ["MS Excel", "Data Analysis", "Dashboarding"],
-      link: "https://github.com/NithinReddyChereddy/Califorina-crime-rate-dashboard-using-ms-excel",
+      link: "https://www.linkedin.com/posts/nithinch06_exceldashboard-dataanalysis-crimedata-activity-7316845302538219521-vVdb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEgcRBYB7q-4pOH_lUF5V7Kfru4RCFg4Qfg",
       github: "https://github.com/NithinReddyChereddy/Califorina-crime-rate-dashboard-using-ms-excel",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80", // Data visualization themed image
       size: "large"
@@ -130,42 +123,41 @@ export const portfolioData = {
       title: "California Crime Rate Analysis | Python",
       description: "Applied Exploratory Data Analysis, correlation analysis, grouping & aggregation, and crime categorization to uncover meaningful behavioral patterns. Visualized major crime classes using heatmaps, stacked bars, trend lines, county-wise comparison plots, and density visuals.",
       techStack: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-      link: "https://github.com/NithinReddyChereddy/califorina-crime-rate-analysis-using-python",
+      link: "https://www.linkedin.com/posts/nithinch06_datascience-crimeanalysis-python-activity-7316856173259890689-MRyZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEgcRBYB7q-4pOH_lUF5V7Kfru4RCFg4Qfg",
       github: "https://github.com/NithinReddyChereddy/califorina-crime-rate-analysis-using-python",
       image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80", // Code / abstract logic themed image
       size: "medium"
     },
     {
       id: 4,
-      title: "Hospital Management System",
-      description: "A full-stack Client-Server web application mapping hospital administrative workflows. Highlights include an ER module prioritizing critical cases via Priority Queue algorithms, real-time medicine inventory tracking, seamless patient registration, and batch processing for fast discharges.",
-      techStack: ["React.js", "Java Spring Boot", "Bootstrap", "Axios", "Java Collections"],
-      link: "#",
+      title: "Client-Server Hospital Management System",
+      description: "A comprehensive healthcare platform built with Java Spring Boot and React. Implements core OOP design for managing patient registrations, appointments, and staff workflows, ensuring a modular and scalable architecture.",
+      techStack: ["Java Spring Boot", "React.js", "PostgreSQL", "REST API", "OOP"],
+      link: "https://github.com/NithinReddyChereddy",
       github: "https://github.com/NithinReddyChereddy",
-      image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80", // Medical/Tech themed image
+      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
       size: "large"
     },
     {
       id: 5,
-      title: "Stealth AI Productivity HUD",
-      description: "A portable, system-wide desktop assistant requiring zero installation. Features global hotkeys for instant toggling, variable user-adjustable transparency, drag-and-drop .txt file loading, and a Gemini API integration for frictionless workflow integration.",
-      techStack: ["Python", "TkinterDnD2", "Gemini API", "Global Hotkeys"],
-      link: "#", // Update with your GitHub link
+      title: "GenAI Stealth Mode Assistant",
+      description: "A high-utility system assistant powered by Gemini API. Features include global hotkey activation, stealth mode transparency control, file drag-and-drop support, and AI-driven workflow optimization.",
+      techStack: ["Python", "Gemini API", "Tkinter", "AI-Augmented Workflows"],
+      link: "https://github.com/NithinReddyChereddy",
       github: "https://github.com/NithinReddyChereddy",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80", // AI/HUD themed image
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
       size: "medium"
-    }
+    },
   ],
-
   about: {
-    bio: "I am a Data Analyst & Full-Stack Developer focused on building high-utility applications with intuitive UX. From engineering Java-based healthcare management systems to architecting AI assistants with custom Stealth Mode functionality, I specialize in bridging the gap between robust backend logic and user-centric design. I leverage AI-augmented development workflows to rapidly prototype, iterate, and deploy scalable solutions that solve real-world problems.",
-    extendedBio: "My journey merges software architecture with data-driven insights. I embrace modern engineering workflows, utilizing AI tools to assist in architecting scalable state-management, prototyping secure API endpoints, and translating complex logic into functional applications efficiently. I am actively seeking opportunities to apply my full-stack and analytical skillset to robust production environments.",
+    bio: "I am an Aspiring Data Analyst & Full-Stack Developer with a passion for transforming complex data into actionable insights and building high-utility applications. From engineering Java-based healthcare management systems and GenAI assistants to developing interactive data dashboards in Power BI and Excel, I specialize in bridging the gap between robust software engineering and deep analytical research. I leverage AI-augmented development workflows to deliver scalable, user-centric solutions.",
+    extendedBio: "My journey merges software architecture with data-driven storytelling. I have successfully engineered full-stack applications using Spring Boot and React, while simultaneously mastering data analytics tools to uncover behavioral patterns in global datasets. By embracing modern engineering workflows, I use AI tools to architect scalable systems, prototype secure API endpoints, and translate complex logic into functional applications efficiently. I am actively seeking roles where I can apply my analytical mindset and technical expertise to drive data-informed decisions.",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Nithin",
     highlights: [
-      "Proficient in Full-Stack Dev (React.js, Spring Boot) and Data Analytics (Power BI)",
-      "Experienced in Modern AI-Assisted Development Workflows",
+      "Expertise in Full-Stack Development (React, Spring Boot) and Data Analytics (Power BI)",
+      "Built and Deployed End-to-End Applications (Hospital Management, AI Assistants)",
       "Strong foundation in OOP and Data Structures & Algorithms",
-      "Dedicated to clean code, modular architecture, and intuitive UI/UX"
+      "Proficient in AI-Assisted Development and Modern Software Engineering Practices"
     ]
   },
   certifications: [
