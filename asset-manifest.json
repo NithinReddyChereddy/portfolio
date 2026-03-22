@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NithinReddyChereddy/portfolio/static/css/main.27a7bf8e.css",
+    "main.js": "/NithinReddyChereddy/portfolio/static/js/main.d8d77747.js",
+    "index.html": "/NithinReddyChereddy/portfolio/index.html",
+    "main.27a7bf8e.css.map": "/NithinReddyChereddy/portfolio/static/css/main.27a7bf8e.css.map",
+    "main.d8d77747.js.map": "/NithinReddyChereddy/portfolio/static/js/main.d8d77747.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27a7bf8e.css",
+    "static/js/main.d8d77747.js"
+  ]
+}
