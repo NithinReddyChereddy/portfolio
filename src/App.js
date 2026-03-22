@@ -114,7 +114,7 @@ function App() {
                 </h3>
                 <div className="flex gap-4 items-center">
                   <a
-                    href="/resume.pdf"
+                    href="resume.pdf"
                     download
                     className="text-sm font-bold text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors px-4 py-2 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 hover:border-emerald-500/40"
                   >
@@ -140,7 +140,7 @@ function App() {
                 </div>
 
                 <iframe
-                  src="/resume.pdf"
+                  src="resume.pdf"
                   className="w-full h-full border-none z-10 relative"
                   title="Resume Document"
                 />
