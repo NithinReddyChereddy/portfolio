@@ -184,7 +184,7 @@ export const portfolioData = {
       issuer: "Infosys Springboard",
       date: "December 2025",
       skills: ["Power BI", "Data Analytics", "Data Quality", "Business Communication"],
-      link: "/TechA Data Analytics using Power BI Foundation Certification.pdf",
+      link: "TechA Data Analytics using Power BI Foundation Certification.pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
@@ -194,7 +194,7 @@ export const portfolioData = {
       issuer: "Infosys Springboard",
       date: "December 2025",
       skills: ["Power BI", "Business Intelligence", "Decision Science", "EDA"],
-      link: "/Power BI for Business Professionals.pdf",
+      link: "Power BI for Business Professionals.pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
@@ -204,7 +204,7 @@ export const portfolioData = {
       issuer: "Tata",
       date: "September 2025",
       skills: ["AI Analytics", "Predictive Modeling", "Process Automation", "AI Strategy"],
-      link: "/ai powered data analytics job simulation (forage).pdf",
+      link: "ai powered data analytics job simulation (forage).pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
@@ -214,7 +214,7 @@ export const portfolioData = {
       issuer: "Infosys Springboard",
       date: "December 2025",
       skills: ["Data Visualization", "Power BI", "Data Storytelling", "Dashboards"],
-      link: "/Hands-On Data Visualization with Microsoft Power BI.pdf",
+      link: "Hands-On Data Visualization with Microsoft Power BI.pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
@@ -224,7 +224,7 @@ export const portfolioData = {
       issuer: "Infosys Springboard",
       date: "December 2025",
       skills: ["Generative AI", "Large Language Models", "Prompt Engineering", "AI-Assisted Dev"],
-      link: "/master generative ai & generative ai tools.pdf",
+      link: "master generative ai & generative ai tools.pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
