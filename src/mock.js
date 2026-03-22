@@ -10,6 +10,7 @@ export const portfolioData = {
       { name: "Pandas & NumPy" },
       { name: "Matplotlib & Seaborn" },
       { name: "Statistical Modeling" },
+      { name: "Exploratory Data Analysis" },
       { name: "DAX" }
     ],
     "Languages": [
@@ -160,7 +161,7 @@ export const portfolioData = {
   about: {
     bio: "I am a results-driven Data Analyst dedicated to transforming complex datasets into actionable insights through advanced visualization and statistical analysis. With expertise in Power BI, SQL, Python, and Excel, I specialize in uncovering hidden patterns and building interactive dashboards that drive data-informed decision-making. My background in software engineering allows me to bridge the gap between technical data architecture and high-impact business intelligence.",
     extendedBio: "My journey combines a strong foundation in Computer Science with a specialized focus on Data Analytics and Business Intelligence. I have successfully executed end-to-end data projects—from performing exploratory data analysis (EDA) on global search & rescue missions to architecting regional crime rate dashboards. I leverage modern tools like Power BI, DAX, and Python-based visualization libraries to tell compelling stories with data. By integrating Generative AI into my analytical workflows, I optimize data processing and predictive modeling to deliver secure, scalable, and user-centric insights.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Nithin",
+    image: "/formals.jpeg",
     highlights: [
       "Expertise in Data Analytics, Visualization & Business Intelligence (Power BI, Excel)",
       "Proficient in Python (Pandas, NumPy, Seaborn) & SQL for Data Analysis",
