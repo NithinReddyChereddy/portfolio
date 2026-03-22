@@ -60,7 +60,7 @@ export const portfolioData = {
       period: "2022 - Present",
       achievements: [
         "Architected a Client-Server Hospital Management system using React.js and Java Spring Boot with efficient OOP design.",
-        "Developed a system-integrated AI Assistant using Gemini API with global hotkeys, drag-and-drop file support, and dynamic transparency.",
+        "Developed a user-focused, system-integrated AI Assistant using Gemini API, featuring a 'bring-your-own-key' model, global hotkeys, drag-and-drop file support, and dynamic transparency.",
         "Built comprehensive, data-driven dashboards in Power BI and Excel to analyze complex global datasets and provide actionable insights.",
         "Utilized AI-assisted workflows to prototype full-stack application logic and architect scalable backend systems efficiently.",
         "Currently maintaining a CGPA of 7.3 in Bachelor of Technology - Computer Science and Engineering."
@@ -150,7 +150,7 @@ export const portfolioData = {
     {
       id: 5,
       title: "GenAI Stealth Mode Assistant",
-      description: "A high-utility system assistant powered by Gemini API. Features include global hotkey activation, stealth mode transparency control, file drag-and-drop support, and AI-driven workflow optimization.",
+      description: "A high-utility, user-focused system assistant powered by Gemini API, designed with a 'bring-your-own-key' model. Features include global hotkey activation, stealth mode transparency control, file drag-and-drop support, and AI-driven workflow optimization.",
       techStack: ["Python", "Gemini API", "Tkinter", "AI-Augmented Workflows"],
       link: "https://github.com/NithinReddyChereddy",
       github: "https://github.com/NithinReddyChereddy",
@@ -159,14 +159,14 @@ export const portfolioData = {
     },
   ],
   about: {
-    bio: "I am a results-driven Data Analyst dedicated to transforming complex datasets into actionable insights through advanced visualization and statistical analysis. With expertise in Power BI, SQL, Python, and Excel, I specialize in uncovering hidden patterns and building interactive dashboards that drive data-informed decision-making. My background in software engineering allows me to bridge the gap between technical data architecture and high-impact business intelligence.",
-    extendedBio: "My journey combines a strong foundation in Computer Science with a specialized focus on Data Analytics and Business Intelligence. I have successfully executed end-to-end data projects—from performing exploratory data analysis (EDA) on global search & rescue missions to architecting regional crime rate dashboards. I leverage modern tools like Power BI, DAX, and Python-based visualization libraries to tell compelling stories with data. By integrating Generative AI into my analytical workflows, I optimize data processing and predictive modeling to deliver secure, scalable, and user-centric insights.",
+    bio: "I am a Data Analyst passionate about turning complex data into clear, actionable insights. Using tools like Power BI, SQL, and Python, I build interactive dashboards that drive business decisions. My software engineering background helps me bridge the gap between technical data architecture and real-world business impact.",
+    extendedBio: "My journey combines a strong foundation in Computer Science with a specialized focus on Data Analytics and Business Intelligence. I’ve managed end-to-end data projects, from analyzing global search & rescue missions to building regional crime rate dashboards and various other tools. Using tools like Power BI, DAX, and Python, I create compelling data narratives. By integrating Generative AI into my analytical workflows, I optimize data processing and predictive modeling to deliver secure, scalable, and user-centric insights.",
     image: process.env.PUBLIC_URL + "/formals.jpeg",
     highlights: [
-      "Expertise in Data Analytics, Visualization & Business Intelligence (Power BI, Excel)",
-      "Proficient in Python (Pandas, NumPy, Seaborn) & SQL for Data Analysis",
-      "Hands-on experience in Exploratory Data Analysis (EDA) and Statistical Modeling",
-      "Certified Oracle Data Platform Associate & Power BI Foundations Specialist"
+      "Building interactive dashboards with Power BI & Excel for data visualization",
+      "Analyzing data and uncovering patterns with Python (Pandas, NumPy) & SQL",
+      "Applying statistical modeling and EDA for in-depth analysis",
+      "Holding certifications in Oracle Data Platforms and Power BI"
     ]
   },
   certifications: [
