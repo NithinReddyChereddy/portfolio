@@ -88,7 +88,7 @@ const AboutNew = () => {
                     <img
                       src={portfolioData.about.image}
                       alt="Profile"
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 object-center grayscale hover:grayscale-0"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 object-center"
                     />
                   </div>
                 </div>
