@@ -6,9 +6,11 @@ import { portfolioData } from '../mock';
 const sections = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'workflow', label: 'Workflow' },
+  { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
+  { id: 'education', label: 'Education' },
   { id: 'certifications', label: 'Certifications' },
   { id: 'contact', label: 'Contact' }
 ];

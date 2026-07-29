@@ -4,7 +4,7 @@ import { portfolioData } from '../mock';
 import { Code2, Layout, Server, Database, BrainCircuit, Cloud, Wrench, Terminal } from 'lucide-react';
 
 const categoryConfig = {
-  "Languages": {
+  "Programming": {
     icon: Code2,
     color: "text-blue-400",
     bgColor: "bg-blue-500/10",
@@ -12,7 +12,7 @@ const categoryConfig = {
     hoverBorder: "hover:border-blue-400/60",
     glow: "bg-blue-500/20"
   },
-  "Frontend": {
+  "Data Analytics": {
     icon: Layout,
     color: "text-cyan-400",
     bgColor: "bg-cyan-500/10",
@@ -20,7 +20,7 @@ const categoryConfig = {
     hoverBorder: "hover:border-cyan-400/60",
     glow: "bg-cyan-500/20"
   },
-  "Backend": {
+  "Libraries": {
     icon: Server,
     color: "text-purple-400",
     bgColor: "bg-purple-500/10",
@@ -36,21 +36,13 @@ const categoryConfig = {
     hoverBorder: "hover:border-emerald-400/60",
     glow: "bg-emerald-500/20"
   },
-  "Generative AI": {
+  "AI & Automation": {
     icon: BrainCircuit,
     color: "text-rose-400",
     bgColor: "bg-rose-500/10",
     borderColor: "border-rose-400/30",
     hoverBorder: "hover:border-rose-400/60",
     glow: "bg-rose-500/20"
-  },
-  "Cloud": {
-    icon: Cloud,
-    color: "text-amber-400",
-    bgColor: "bg-amber-500/10",
-    borderColor: "border-amber-400/30",
-    hoverBorder: "hover:border-amber-400/60",
-    glow: "bg-amber-500/20"
   },
   "Tools": {
     icon: Wrench,
