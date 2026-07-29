@@ -1,81 +1,97 @@
-
 export const portfolioData = {
   name: "Nithin Reddy Chereddy",
-  tagline: "Data Analyst | Transforming Complex Data into Actionable Insights",
+  tagline: "Data Analyst | AI & Automation Developer",
 
   skills: {
-    "Data Analysis & BI": [
-      { name: "Power BI" },
-      { name: "Advanced Excel" },
-      { name: "Pandas & NumPy" },
-      { name: "Matplotlib & Seaborn" },
-      { name: "Statistical Modeling" },
-      { name: "Exploratory Data Analysis" },
-      { name: "DAX" }
-    ],
-    "Languages": [
+    "Programming": [
       { name: "Python" },
-      { name: "Java" },
-      { name: "JavaScript" },
-      { name: "C++" },
       { name: "SQL" },
-      { name: "HTML/CSS" }
+      { name: "C++" }
     ],
-    "Frontend": [
-      { name: "React.js" },
-      { name: "Streamlit" },
-      { name: "Tailwind CSS" },
-      { name: "TkinterDnD2" }
-    ],
-    "Databases & Tools": [
-      { name: "PostgreSQL" },
-      { name: "Java Collections" },
+    "Data Analytics": [
       { name: "Power BI" },
-      { name: "Advanced Excel" }
+      { name: "DAX" },
+      { name: "EDA" },
+      { name: "Data Modeling" },
+      { name: "Data Visualization" },
+      { name: "Business Intelligence" }
     ],
-    "Gen AI & Cloud": [
+    "Libraries": [
+      { name: "Pandas" },
+      { name: "NumPy" },
+      { name: "Matplotlib" },
+      { name: "Seaborn" }
+    ],
+    "Databases": [
+      { name: "MySQL" }
+    ],
+    "AI & Automation": [
       { name: "Gemini API" },
-      { name: "AI-Assisted Development" },
-      { name: "Git & GitHub" },
-      { name: "Cloud Hosting" }
+      { name: "Prompt Engineering" },
+      { name: "AI-assisted Development" },
+      { name: "Rapid Prototyping" },
+      { name: "Workflow Automation" },
+      { name: "Cursor" },
+      { name: "Claude Code" },
+      { name: "AntiGravity" }
+    ],
+    "Tools": [
+      { name: "Git" },
+      { name: "GitHub" },
+      { name: "VS Code" },
+      { name: "Excel" },
+      { name: "Jupyter Notebook" },
+      { name: "Hadoop" },
+      { name: "Hive" }
     ]
   },
 
   experience: [
     {
-      role: "DSA with Java/C++ with Industrial Practices",
-      company: "Training Program",
-      period: "Jun 2025 - Jul 2025",
+      role: "Data Visualization Intern",
+      company: "Infosys Springboard",
+      period: "Ongoing",
       achievements: [
-        "Gained hands-on experience in core Java & C++, focusing on object-oriented design and clean code practices.",
-        "Learned and implemented key Data Structures (arrays, linked lists, stacks, queues, trees, graphs).",
-        "Practiced algorithmic problem-solving using recursion, sorting, searching, and greedy techniques.",
-        "Completed a project Hospital Management System (Java) – implemented modules for patient registration, appointment scheduling, staff records, and billing using OOP concepts, collections, and modular architecture."
+        "Learning industry-standard data visualization and business intelligence using Power BI.",
+        "Building interactive dashboards and reports for business decision-making.",
+        "Working with data cleaning, transformation and visualization best practices.",
+        "Developing KPI reporting, dashboard storytelling and business analytics skills.",
+        "Applying analytical thinking to practical data analytics use cases."
       ],
-      technologies: ["Java", "C++", "Data Structures", "Algorithms", "OOP"]
+      technologies: ["Power BI", "Data Visualization", "Business Intelligence", "Data Analytics"]
     },
     {
-      role: "Bachelor of Technology - Computer Science and Engineering",
-      company: "Lovely Professional University (LPU)",
-      period: "2022 - Present",
+      role: "Industrial Training",
+      company: "DSA with Java/C++ with Industrial Practices",
+      period: "Jun 2025 – Jul 2025",
       achievements: [
-        "Architected a Client-Server Hospital Management system using React.js and Java Spring Boot with efficient OOP design.",
-        "Developed a user-focused, system-integrated AI Assistant using Gemini API, featuring a 'bring-your-own-key' model, global hotkeys, drag-and-drop file support, and dynamic transparency.",
-        "Built comprehensive, data-driven dashboards in Power BI and Excel to analyze complex global datasets and provide actionable insights.",
-        "Utilized AI-assisted workflows to prototype full-stack application logic and architect scalable backend systems efficiently.",
-        "Currently maintaining a CGPA of 7.3 in Bachelor of Technology - Computer Science and Engineering."
+        "Strengthened programming fundamentals using Java and C++.",
+        "Implemented core Data Structures including arrays, linked lists, stacks, queues, trees and graphs.",
+        "Practiced algorithmic problem-solving through sorting, searching, recursion and greedy algorithms.",
+        "Improved object-oriented programming and clean coding practices."
       ],
-      technologies: ["Java Spring Boot", "React", "Python", "Power BI", "Gemini API"]
+      technologies: ["Java", "C++", "Data Structures", "Algorithms", "Object-Oriented Programming"]
+    }
+  ],
+
+  education: [
+    {
+      id: 1,
+      degree: "Bachelor of Technology",
+      major: "Computer Science and Engineering",
+      school: "Lovely Professional University",
+      period: "2023 – Present",
+      grade: "CGPA: 7.5",
+      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
     },
     {
-      role: "12th Grade (Intermediate Education)",
-      company: "Sri Chaitanya Junior College",
-      period: "2021 - 2023",
-      achievements: [
-        "Completed senior secondary education.",
-        "Secured a strong academic percentage of 85."
-      ],
-      technologies: []
+      id: 2,
+      degree: "Intermediate Education",
+      major: "MPC",
+      school: "Sri Chaitanya boys Junior College",
+      period: "2021 – 2023",
+      grade: "Percentage: 85%",
+      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
     }
   ],
 
@@ -83,69 +99,69 @@ export const portfolioData = {
     {
       id: 1,
       label: "Professional Certifications",
-      value: "6+",
-      description: "Completed industry-grade certifications in Data Analytics, Power BI, and Oracle Data Platforms."
+      value: "7",
+      description: "Completed industry-grade certifications in Data Analytics, Power BI, and Oracle Cloud AI."
     },
     {
       id: 2,
-      label: "Data Analysis Projects",
-      value: "5+",
-      description: "End-to-end analytical projects involving EDA, visualization, and predictive insights."
+      label: "Portfolio Projects",
+      value: "5",
+      description: "End-to-end projects involving AI engineering, data analysis, and workflow automation."
     },
     {
       id: 3,
       label: "Interactive Dashboards",
-      value: "3+",
-      description: "Comprehensive Power BI and Excel dashboards built for automated reporting and decision support."
+      value: "3",
+      description: "Dashboards built for automated reporting, decision support, and self-service analytics."
     },
     {
       id: 4,
       label: "Analytical Tools",
       value: "10+",
-      description: "Proficient in languages, BI tools, and libraries utilized for data-driven storytelling."
+      description: "Proficient in languages, BI tools, APIs, and libraries utilized for data-driven applications."
     }
   ],
 
   projects: [
     {
       id: 1,
-      title: "Wildland Search & Rescue Missions – Power BI Dashboard",
-      description: "A Power BI dashboard that analyzes global Wildland Search and Rescue missions, highlighting key metrics, trends, subject demographics, and mission insights. Accompanied by Excel dashboards analyzing regional crime rates.",
-      techStack: ["Power BI", "Excel", "DAX", "Data Modeling"],
-      link: "https://app.powerbi.com/view?r=eyJrIjoiNTExZmRjMGMtMzZmOS00M2Y0LWEwYjUtODc5MjE0NGNmNzE0IiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D",
-      github: "https://github.com/NithinReddyChereddy/PowerBI-Wildland-Search-Rescue-Dashboard",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80", // Dashboard themed
-      size: "medium"
+      title: "DataSynth AI",
+      description: "An AI-powered self-service data analytics platform that transforms CSV/XLSX datasets into interactive dashboards, automated reports, and AI-generated business insights. Features automated data profiling, trend and correlation analysis, conversational dataset exploration, and AI-generated insights via Gemini API.",
+      techStack: ["Python", "FastAPI", "Pandas", "NumPy", "Gemini API"],
+      link: "https://datasynth-ai-ten.vercel.app/",
+      github: "https://github.com/NithinReddyChereddy/DataSynth-AI",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+      size: "large"
     },
     {
       id: 2,
+      title: "Wildland Search & Rescue Dashboard",
+      description: "Built an interactive Power BI dashboard for operational search and rescue analysis featuring KPI tracking, DAX measures, drill-down reports, slicers and performance monitoring to identify operational bottlenecks and resource utilization trends.",
+      techStack: ["Power BI", "DAX", "Data Modeling"],
+      link: "https://app.powerbi.com/view?r=eyJrIjoiNTExZmRjMGMtMzZmOS00M2Y0LWEwYjUtODc5MjE0NGNmNzE0IiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D",
+      github: "https://github.com/NithinReddyChereddy/PowerBI-Wildland-Search-Rescue-Dashboard",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      size: "medium"
+    },
+    {
+      id: 3,
       title: "California Crime Rate Analysis Dashboard | MS Excel",
       description: "Built an interactive dashboard using MS Excel to visualize California crime rates. Enhanced dashboard usability with interactive buttons, slicers, and an organized layout, enabling quick interpretation of crime trends.",
       techStack: ["MS Excel", "Data Analysis", "Dashboarding"],
       link: "https://www.linkedin.com/posts/nithinch06_exceldashboard-dataanalysis-crimedata-activity-7316845302538219521-vVdb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEgcRBYB7q-4pOH_lUF5V7Kfru4RCFg4Qfg",
       github: "https://github.com/NithinReddyChereddy/Califorina-crime-rate-dashboard-using-ms-excel",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80", // Data visualization themed image
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
       size: "large"
-    },
-    {
-      id: 3,
-      title: "California Crime Rate Analysis | Python",
-      description: "Applied Exploratory Data Analysis, correlation analysis, grouping & aggregation, and crime categorization to uncover meaningful behavioral patterns. Visualized major crime classes using heatmaps, stacked bars, trend lines, county-wise comparison plots, and density visuals.",
-      techStack: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-      link: "https://www.linkedin.com/posts/nithinch06_datascience-crimeanalysis-python-activity-7316856173259890689-MRyZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEgcRBYB7q-4pOH_lUF5V7Kfru4RCFg4Qfg",
-      github: "https://github.com/NithinReddyChereddy/califorina-crime-rate-analysis-using-python",
-      image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80", // Code / abstract logic themed image
-      size: "medium"
     },
     {
       id: 4,
-      title: "Client-Server Hospital Management System",
-      description: "A comprehensive healthcare platform built with Java Spring Boot and React. Implements core OOP design for managing patient registrations, appointments, and staff workflows, ensuring a modular and scalable architecture.",
-      techStack: ["Java Spring Boot", "React.js", "PostgreSQL", "REST API", "OOP"],
-      link: "https://github.com/NithinReddyChereddy",
-      github: "https://github.com/NithinReddyChereddy",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
-      size: "large"
+      title: "California Crime Analysis",
+      description: "Performed exploratory data analysis on over 20,000 crime records using Python to identify geographical and temporal crime patterns through automated data cleaning, preprocessing, visualization and statistical analysis.",
+      techStack: ["Python", "Pandas", "NumPy", "Matplotlib"],
+      link: "https://www.linkedin.com/posts/nithinch06_datascience-crimeanalysis-python-activity-7316856173259890689-MRyZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEgcRBYB7q-4pOH_lUF5V7Kfru4RCFg4Qfg",
+      github: "https://github.com/NithinReddyChereddy/califorina-crime-rate-analysis-using-python",
+      image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80",
+      size: "medium"
     },
     {
       id: 5,
@@ -156,31 +172,42 @@ export const portfolioData = {
       github: "https://github.com/NithinReddyChereddy",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
       size: "medium"
-    },
+    }
   ],
+
   about: {
-    bio: "I am a Data Analyst passionate about turning complex data into clear, actionable insights. Using tools like Power BI, SQL, and Python, I build interactive dashboards that drive business decisions. My software engineering background helps me bridge the gap between technical data architecture and real-world business impact.",
-    extendedBio: "My journey combines a strong foundation in Computer Science with a specialized focus on Data Analytics and Business Intelligence. I’ve managed end-to-end data projects, from analyzing global search & rescue missions to building regional crime rate dashboards and various other tools. Using tools like Power BI, DAX, and Python, I create compelling data narratives. By integrating Generative AI into my analytical workflows, I optimize data processing and predictive modeling to deliver secure, scalable, and user-centric insights.",
+    bio: "I am a Computer Science student specializing in Data Science with a strong interest in Data Analytics, Artificial Intelligence, and intelligent software development. I enjoy transforming raw data into actionable insights while building AI-assisted applications and automation solutions using modern development tools and APIs.",
+    extendedBio: "My experience includes developing data analytics applications with Python, FastAPI, Gemini API, Power BI, SQL, and workflow automation. I regularly use AI-native development environments such as Cursor, Claude Code, and AntiGravity to accelerate prototyping, debugging, and application development while maintaining a strong understanding of software engineering fundamentals.\n\nI am passionate about combining business intelligence with AI-powered solutions and continuously expanding my knowledge of LLM applications, AI agents, and enterprise automation. I enjoy solving real-world problems through analytical thinking, rapid experimentation, and continuous learning.",
     image: process.env.PUBLIC_URL + "/formals.jpeg",
     highlights: [
-      "Building interactive dashboards with Power BI & Excel for data visualization",
-      "Analyzing data and uncovering patterns with Python (Pandas, NumPy) & SQL",
-      "Applying statistical modeling and EDA for in-depth analysis",
-      "Holding certifications in Oracle Data Platforms and Power BI"
+      "Transforming data into insights with Power BI, Excel, and SQL",
+      "Building AI-assisted applications with Python, FastAPI, and Gemini API",
+      "Accelerating software engineering with Cursor, Claude Code, and AntiGravity",
+      "Applying analytical thinking to workflow automation and business intelligence"
     ]
   },
+
   certifications: [
     {
       id: 1,
       title: "Oracle Data Platform 2025 Certified Foundations Associate",
       issuer: "Oracle",
       date: "March 2026",
-      skills: ["Oracle", "Data Platform", "Foundations Associate"],
+      skills: ["Oracle", "Data Platform", "SQL", "Cloud Databases"],
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=895861BDEE3328B9C740D55E03B07484B11D1B1B88A4EA0D8723D1F7D3F27BAA",
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80"
     },
     {
       id: 2,
+      title: "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
+      issuer: "Oracle",
+      date: "January 2026",
+      skills: ["OCI", "Generative AI", "Machine Learning", "Cloud AI Services"],
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=55ED73A826D7AC53F1DC8E85E867DBD0F30AB948FB2FA686FB4141A7ABDCA7E4",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      id: 3,
       title: "TechA Data Analytics using Power BI Foundation Certification",
       issuer: "Infosys Springboard",
       date: "December 2025",
@@ -190,7 +217,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
     {
-      id: 3,
+      id: 4,
       title: "Power BI for Business Professionals",
       issuer: "Infosys Springboard",
       date: "December 2025",
@@ -200,17 +227,17 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
     {
-      id: 4,
-      title: "GenAI Powered Data Analytics Job Simulation",
-      issuer: "Tata",
+      id: 5,
+      title: "Tata GenAI Powered Data Analytics Job Simulation",
+      issuer: "Tata (Forage)",
       date: "September 2025",
-      skills: ["AI Analytics", "Predictive Modeling", "Process Automation", "AI Strategy"],
+      skills: ["AI Analytics", "Predictive Modeling", "Process Automation", "Data Insights"],
       link: "ai powered data analytics job simulation (forage).pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
     {
-      id: 5,
+      id: 6,
       title: "Hands-On Data Visualization with Microsoft Power BI",
       issuer: "Infosys Springboard",
       date: "December 2025",
@@ -220,7 +247,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     },
     {
-      id: 6,
+      id: 7,
       title: "Master Generative AI & Generative AI tools",
       issuer: "Infosys Springboard",
       date: "December 2025",
@@ -228,8 +255,9 @@ export const portfolioData = {
       link: "master generative ai & generative ai tools.pdf",
       isPdf: true,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
-    },
+    }
   ],
+
   social: {
     github: "https://github.com/NithinReddyChereddy",
     linkedin: "https://www.linkedin.com/in/nithinch06/",

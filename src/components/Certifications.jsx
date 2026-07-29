@@ -166,7 +166,7 @@ const Certifications = () => {
                                 </h3>
                                 <div className="flex gap-4 items-center">
                                     <a
-                                        href={selectedCert.link}
+                                        href={selectedCert.link.startsWith('http') ? selectedCert.link : `${process.env.PUBLIC_URL}/${selectedCert.link}`}
                                         download
                                         target={selectedCert.isPdf ? undefined : "_blank"}
                                         rel="noopener noreferrer"
@@ -181,21 +181,21 @@ const Certifications = () => {
                                         <X className="w-5 h-5" />
                                     </button>
                                 </div>
-                            </div>
+                             </div>
 
-                            {/* Modal Body / PDF Iframe */}
-                            <div className="flex-1 w-full relative bg-slate-200 dark:bg-[#1a1a1a]">
-                                {/* Fallback pattern if iframe is loading or empty */}
-                                <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-500 dark:text-slate-500 space-y-4 -z-10">
-                                    {selectedCert.isPdf ? <FileText className="w-16 h-16 opacity-30" /> : <ShieldCheck className="w-16 h-16 opacity-30" />}
-                                    <p className="font-medium">Loading document...</p>
-                                </div>
+                             {/* Modal Body / PDF Iframe */}
+                             <div className="flex-1 w-full relative bg-slate-200 dark:bg-[#1a1a1a]">
+                                 {/* Fallback pattern if iframe is loading or empty */}
+                                 <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-500 dark:text-slate-500 space-y-4 -z-10">
+                                     {selectedCert.isPdf ? <FileText className="w-16 h-16 opacity-30" /> : <ShieldCheck className="w-16 h-16 opacity-30" />}
+                                     <p className="font-medium">Loading document...</p>
+                                 </div>
 
-                                <iframe
-                                    src={selectedCert.link}
-                                    className="w-full h-full border-none z-10 relative"
-                                    title="Certificate Document"
-                                />
+                                 <iframe
+                                     src={selectedCert.link.startsWith('http') ? selectedCert.link : `${process.env.PUBLIC_URL}/${selectedCert.link}`}
+                                     className="w-full h-full border-none z-10 relative"
+                                     title="Certificate Document"
+                                 />
                             </div>
                         </motion.div>
                     </motion.div>

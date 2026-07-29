@@ -5,10 +5,12 @@ import { FileText, X } from "lucide-react";
 import Navbar from "./components/Navbar";
 import HeroNew from "./components/HeroNew";
 import AboutNew from "./components/AboutNew";
-import ExperienceNew from "./components/ExperienceNew";
-import Skills from "./components/Skills";
-import Certifications from "./components/Certifications";
 import ProjectsNew from "./components/ProjectsNew";
+import ExperienceNew from "./components/ExperienceNew";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import AIDevelopmentWorkflow from "./components/AIDevelopmentWorkflow";
+import Certifications from "./components/Certifications";
 import ContactNew from "./components/ContactNew";
 
 function App() {
@@ -61,9 +63,11 @@ function App() {
         <Navbar onOpenResume={() => setShowResume(true)} isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <HeroNew onOpenResume={() => setShowResume(true)} />
         <AboutNew />
-        <ExperienceNew />
         <ProjectsNew />
+        <AIDevelopmentWorkflow />
+        <ExperienceNew />
         <Skills />
+        <Education />
         <Certifications />
         <ContactNew />
 
@@ -114,7 +118,7 @@ function App() {
                 </h3>
                 <div className="flex gap-4 items-center">
                   <a
-                    href="resume.pdf"
+                    href={`${process.env.PUBLIC_URL}/resume.pdf`}
                     download
                     className="text-sm font-bold text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors px-4 py-2 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 hover:border-emerald-500/40"
                   >
@@ -140,7 +144,7 @@ function App() {
                 </div>
 
                 <iframe
-                  src="resume.pdf"
+                  src={`${process.env.PUBLIC_URL}/resume.pdf`}
                   className="w-full h-full border-none z-10 relative"
                   title="Resume Document"
                 />
